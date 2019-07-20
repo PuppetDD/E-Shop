@@ -1,0 +1,173 @@
+@CHARSET "UTF-8";
+.tb-property {
+    width: 530px;
+    height: 520px;
+    margin-left: 50px;
+    float: left;
+}
+
+.extInfo {
+    width: 220px;
+    height: 520px;
+    float: right;
+}
+
+.tr-nobdr {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.tr-nobdr h3 {
+    color: #171717;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.txt {
+    width: 520px;
+    margin-top: 15px;
+    overflow: hidden;
+    background: #f8f8f8;
+}
+
+.nowprice {
+    display: block;
+    line-height: 100px;
+    color: #f73a3a;
+    font-size: 24px;
+    float: left;
+}
+
+.nowprice a {
+    font-size: 36px;
+    color: #f73a3a;
+}
+
+.nowprice a:hover {
+    text-decoration: none;
+}
+
+.cumulative {
+    float: right;
+
+}
+
+.number {
+    float: left;
+    margin-top: 30px;
+    padding: 0px 10px;
+    border-right: #e7e7e7 solid 1px;
+    font-size: 14px;
+    text-align: center;
+    color: #bfbfbf;
+}
+
+.number em {
+    color: #5885c6;
+    font-style: normal
+}
+
+.nobdr-btns {
+    padding-top: 25px;
+}
+
+.Hgt {
+    color: #424242;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.addcart {
+    background: #fd532d;
+    padding: 0px 50px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.yh {
+    background: #e60013;
+}
+
+.guarantee {
+    height: 50px;
+}
+
+.guarantee span {
+    color: #666666;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.guarantee span a img {
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.brand-logo {
+    width: 220px;
+    height: 85px;
+    border-top: #eeeeee solid 1px;
+    border-bottom: #eeeeee solid 1px;
+    text-align: center;
+}
+
+.product_image {
+    width: 250px;
+    height: 300px;
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.product_image {
+    width: 250px;
+    height: 300px;
+
+}
+
+.product_image1 {
+    width: 100%;
+    height: 100%;
+}
+
+.product1 {
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+}
+
+.product {
+    width: calc((100% - 160px) / 4);
+    margin-bottom: 30px;
+    margin-left: 40px;
+    float: left;
+    border: 5px solid cadetblue;
+}
+
+.product_content {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.product_price {
+    font-size: 12px;
+    font-weight: 500;
+    color: #6c6a74;
+    line-height: 0.75;
+    margin-top: 13px;
+    margin-left: 0px;
+}
+
+.public-container2 {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+    height: 700px;
+}

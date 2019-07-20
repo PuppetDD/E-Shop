@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+.search {
+    margin-top: 3px;
+    margin-left: 45px;
+    width: 200px;
+    height: 40px;
+    border-radius: 18px;
+    outline: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.01);
+    color: white;
+    font-size: 16px;
+}
+
+.btn {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    background: url("../img/serch.png");
+    top: 6px;
+    left: 1050px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}

@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+.index-list {
+    position: relative;
+}
+
+.list-header {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -78px;
+    width: 156px;
+    height: 75px;
+    text-align: center;
+    line-height: 65px;
+    color: #ffffff;
+    background-color: #00c1d1;
+}
+
+.list-header:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 78px solid transparent;
+    border-right: 78px solid transparent;
+    border-bottom: 10px solid #ffffff;
+}

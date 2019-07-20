@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+.address {
+    border: seashell solid 5px;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.public-container {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.list {
+    float: left;
+    display: block;
+}
+
+.list1 {
+    float: right;
+}
+
+h3 {
+    clear: left;
+    margin-bottom: 30px;
+}
+
+.ul-list {
+    width: 1100px;
+    height: 200px;
+
+}
+
+.ul-list1 {
+    width: 1100px;
+    height: 100px;
+    padding: 0px;
+
+}
