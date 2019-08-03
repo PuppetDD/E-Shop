@@ -1,6 +1,5 @@
 package handler;
 
-import entity.Car;
 import entity.User;
 import jdbc.ConnectData;
 
@@ -14,7 +13,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 
 /**
  * E-Shop
@@ -37,7 +35,6 @@ public class ServletSelf extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         User u = new User();
         String u_id = (String) request.getSession().getAttribute("User_id");
-        String address = (String) request.getAttribute("address");
         PreparedStatement statement = null;
         ResultSet rs = null;
         try {

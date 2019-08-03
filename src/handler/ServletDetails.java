@@ -42,7 +42,7 @@ public class ServletDetails extends HttpServlet {
         ResultSet rs = null;
         try {
             Connection con = ConnectData.getCon();
-            String sql = "select *from goods natural join sell natural join business where g_id=?;";
+            String sql = "select * from goods natural join sell natural join business where g_id=?;";
             statement = con.prepareStatement(sql);
             statement.setString(1, g_id);
             rs = statement.executeQuery();

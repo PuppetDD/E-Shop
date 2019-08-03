@@ -43,7 +43,7 @@ public class ServletOrders extends HttpServlet {
             if (con == null) {
                 response.sendRedirect("ServletIndex");
             }
-            String sql = "select *from orders NATURAL join goods where u_id=?";
+            String sql = "select * from orders NATURAL join goods where u_id=?";
             statement = con.prepareStatement(sql);
             statement.setString(1, u_id);
             rs = statement.executeQuery();

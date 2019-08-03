@@ -140,10 +140,9 @@ public class ServletIndex extends HttpServlet {
         ResultSet rs = null;
         try {
             Connection con = ConnectData.getCon();
-            String sql = "select * from goods natural join sell natural join business where g_name like \"%\"?\"%\" or g_type like \"%\"?\"%\"";
+            String sql = "select * from goods natural join sell natural join business where concat(g_name, g_type) like concat('%',?,'%')";
             statement = con.prepareStatement(sql);
             statement.setString(1, s);
-            statement.setString(2, s);
             rs = statement.executeQuery();
             while (rs.next()) {
                 Goods g = new Goods();
